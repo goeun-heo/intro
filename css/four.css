@@ -1,0 +1,52 @@
+#section4 {
+    background: #AE7A72;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    overflow: hidden;
+    padding: 100px 100px 0 100px;
+}
+
+#section4::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #AE7A72;
+    content: "";
+    opacity: .9;
+}
+
+.section4 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#section4 .txtwrap h1 {
+    opacity: 1;
+    color: #3E3837
+}
+
+#section4 .txtwrap ul {
+    padding-top: 50px;
+}
+
+#section4 .txtwrap li {
+    width: 50%;
+    text-align: center;
+    transition:.4s;
+}
+
+#section4 .txtwrap li:hover {
+    opacity: .6;
+}
+
+#section4 .txtwrap li b {
+    display: block;
+}
+
+#section4 .txtwrap li:first-child {
+    border-right: 1px solid #3E3837
+}
